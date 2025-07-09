@@ -8,7 +8,7 @@ This MCP (Model Context Protocol) server provides database access capabilities t
 
 1. Clone the repository:
 ```
-git clone https://github.com/shailesh5050/mcp-database-server.gitnpm 
+git clone https://github.com/shailesh5050/mcp-database-server.git
 cd database-server
 ```
 
