@@ -1,0 +1,1 @@
+// Type declarations for database adapters can be added here
