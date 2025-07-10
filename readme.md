@@ -8,7 +8,7 @@ This MCP (Model Context Protocol) server provides database access capabilities t
 
 1. Clone the repository:
 ```
-git clone https://github.com/executeautomation/mcp-database-server.git
+git clone https://github.com/shailesh5050/mcp-database-server.git
 cd database-server
 ```
 
@@ -24,20 +24,7 @@ npm run build
 
 ## Usage Options
 
-There are two ways to use this MCP server with Claude:
-
-1. **Direct usage**: Install the package globally and use it directly
-2. **Local development**: Run from your local development environment
-
-### Direct Usage with NPM Package
-
-The easiest way to use this MCP server is by installing it globally:
-
-```bash
-npm install -g @executeautomation/database-server
-```
-
-This allows you to use the server directly without building it locally.
+How to Setup:
 
 ### Local Development Setup
 
@@ -112,54 +99,6 @@ Optional parameters:
 - `--connection-timeout`: Connection timeout in milliseconds (default: 30000)
 
 ## Configuring Claude Desktop
-
-### Direct Usage Configuration
-
-If you installed the package globally, configure Claude Desktop with:
-
-```json
-{
-  "mcpServers": {
-    "sqlserver": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@executeautomation/database-server",
-        "--sqlserver",
-        "--server", "your-server-name",
-        "--database", "your-database-name",
-        "--user", "your-username",
-        "--password", "your-password"
-      ]
-    },
-    "postgresql": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@executeautomation/database-server",
-        "--postgresql",
-        "--host", "your-host-name",
-        "--database", "your-database-name",
-        "--user", "your-username",
-        "--password", "your-password"
-      ]
-    },
-    "mysql": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@executeautomation/database-server",
-        "--mysql",
-        "--host", "your-host-name",
-        "--database", "your-database-name",
-        "--port", "3306",
-        "--user", "your-username",
-        "--password", "your-password"
-      ]
-    }
-  }
-}
-```
 
 ### Local Development Configuration
 
