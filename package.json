@@ -1,5 +1,5 @@
 {
-    "name": "@executeautomation/database-server",
+    "name": "database-server",
     "version": "1.1.0",
     "description": "MCP server for interacting with SQL Server, PostgreSQL, and MySQL databases by ExecuteAutomation",
     "license": "MIT",
@@ -20,8 +20,7 @@
         "start": "node dist/src/index.js",
         "dev": "tsc && node dist/src/index.js",
         "example": "node examples/example.js",
-        "clean": "rimraf dist",
-       
+        "clean": "rimraf dist"
     },
     "dependencies": {
         "@modelcontextprotocol/sdk": "1.9.0",
